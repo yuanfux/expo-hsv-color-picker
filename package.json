@@ -1,0 +1,53 @@
+{
+  "name": "expo-hsv-color-picker",
+  "version": "0.0.3",
+  "description": "an Expo native HSV(hue, saturation, value) color picker",
+  "author": "Jason Fu",
+  "bugs": {
+    "url": "https://github.com/yuanfux/expo-hsv-color-picker/issues"
+  },
+  "homepage": "https://github.com/yuanfux/expo-hsv-color-picker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuanfux/expo-hsv-color-picker.git"
+  },
+  "main": "src/index.js",
+  "files": [
+    "src/*"
+  ],
+  "dependencies": {
+    "chroma-js": "^2.0.3",
+    "prop-types": "15.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/runtime": "^7.3.1",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.0.0",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-native": "^3.6.0",
+    "expo": "^32.0.0",
+    "jest": "^24.0.0",
+    "jest-expo": "^32.0.0",
+    "metro-react-native-babel-preset": "^0.51.1",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-test-renderer": "^16.7.0"
+  },
+  "scripts": {
+    "test:lint": "eslint \"src/*.js\"",
+    "test": "npm run test:lint && jest"
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "modulePathIgnorePatterns": [
+      "<rootDir>/demo/"
+    ],
+    "collectCoverage": true
+  },
+  "license": "MIT"
+}

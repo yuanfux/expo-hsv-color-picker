@@ -1,0 +1,16 @@
+# Node
+npm-debug.log
+yarn-error.log
+node_modules
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# WebStorm
+.idea/
+
+# jest
+coverage/
