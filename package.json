@@ -17,6 +17,7 @@
   ],
   "dependencies": {
     "chroma-js": "^2.0.3",
+    "expo-linear-gradient": "^6.0.0",
     "prop-types": "15.6.0"
   },
   "devDependencies": {
